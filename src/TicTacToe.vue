@@ -70,13 +70,6 @@ export default {
               ["", "", "", ""],
             ];
     },
-    chunks(array, size) {
-      var results = [];
-      while (array.length) {
-        results.push(array.splice(0, size));
-      }
-      return results;
-    },
     viewHistory(position) {
       this.gameOverText = "";
       let usingSplit = position.split(",");
