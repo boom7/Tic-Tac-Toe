@@ -1,6 +1,6 @@
 # tic-tac-toe
 
-> A Vue.js project
+> A tic-tac-toe game made with Vue.js 
 
 ## Build Setup
 
@@ -8,11 +8,18 @@
 # install dependencies
 npm install
 
-# serve with hot reload at localhost:8080
+# run at localhost:8080
 npm run dev
+``` 
+## Design
 
-# build for production with minification
-npm run build
-```
+A one player game designed to be played against a bot.
+The game used minimax algorithm.
+The game can be play on 3*3 board as well as 4*4.
+With 4*4, the player has to align 4 in a row to win.
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+The menu consists of 4 buttons.
+1. Decrease: decrease board size
+2. Increase: increase board size
+3. History: view game history
+4. Restart: restart a new game 
